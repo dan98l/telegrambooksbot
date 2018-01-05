@@ -8,5 +8,5 @@ bot.on('message', (msg) => {
   const chatId = msg.chat.id;
 
   // send a message to the chat acknowledging receipt of their message
-  bot.sendMessage(chatId, 'Привет! Это бот для чтения книг онлайн!');
+  bot.sendMessage(chatId, 'Я теперь отвечаю по другому, смотри!');
 });
